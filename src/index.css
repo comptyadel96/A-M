@@ -1,0 +1,39 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Aspekta-Bold;
+  src: url(./assets/fonts/aspekta/Aspekta-750.ttf);
+}
+@font-face {
+  font-family: Aspekta-Medium;
+  src: url(./assets/fonts/aspekta/Aspekta-650.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(./assets/fonts/montserrat/Montserrat-Medium.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Aspekta-Bold;
+}
+
+p,
+nav {
+  font-family: Montserrat-Medium;
+}
+.pattern {
+  background-color: #f2ece2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
