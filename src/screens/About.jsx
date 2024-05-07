@@ -3,8 +3,8 @@ import React from "react"
 function About() {
   return (
     <div className="lg:py-10 flex flex-col items-center">
-      <h1 className="lg:text-5xl">Who We Are ? </h1>
-      <div className="flex items-center md:flex-row flex-col   lg:gap-10 w-full lg:mt-10 bg-black lg:py-14 lg:px-10">
+      <h1 className="lg:text-7xl">About A&M: </h1>
+      <div className="flex  md:flex-row flex-col lg:gap-10 w-full lg:mt-10 bg-black lg:py-[9rem] lg:px-10">
         <img
           src="/images/office.jpg"
           alt=""
@@ -12,16 +12,17 @@ function About() {
         />
         <div className="flex flex-col">
           <h2 className="text-[#F4D298] lg:text-4xl ">
-            About A&M: Driving Trade and Prosperity <br /> Across Algeria,
-            Mauritania, and Beyond
+            Driving Trade and Prosperity <br /> Across Algeria, Mauritania, and
+            Beyond
           </h2>
-          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl  ">
+
+          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl leading-loose   ">
             A&M, your trusted partner in facilitating trade and fostering
             business opportunities between Algeria, Mauritania, and beyond. At
             A&M, we are dedicated to driving economic growth and prosperity by
             connecting businesses and facilitating partnerships across borders.
           </p>
-          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl  ">
+          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl leading-loose lg:self-center pl-3 border-l-2 border-l-yellow-300 ">
             Our team is committed to providing comprehensive services tailored
             to meet the unique needs of our clients. From strategic consulting
             to sourcing commercial partners and investors, we offer a range of
@@ -31,7 +32,7 @@ function About() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center lg:mt-10 text-center">
+      <div className="flex flex-col items-center lg:mt-10 text-center w-full">
         <h2 className=" lg:text-4xl">
           Empowering Prosperity Through Ethical Trade and Sustainable
           Development
@@ -62,7 +63,9 @@ function About() {
           you in achieving your business objectives and driving success in the
           dynamic landscape of African markets.
         </p>
-        <button className="bg-[#F4D298] px-3 py-1 mt-4 text-xl">Contact us now</button>
+        <button className="bg-[#F4D298] px-3 py-2 mt-4 text-xl rounded-md">
+          Contact us now
+        </button>
       </div>
     </div>
   )

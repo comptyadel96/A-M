@@ -3,12 +3,12 @@ import React from "react"
 function Home() {
   return (
     <div className="flex flex-col items-center lg:pt-20">
-      <div className="flex w-full lg:px-6 gap-8 relative">
+      <section className="flex w-full lg:px-6 gap-8 relative bg-gradient-to-br from-gray-300 lg:py-14 to-white">
         <div className="self-start ">
           <img
             src="images/monument1.jpg"
             alt="monument du martyr algérie"
-            className="object-contain w-full min-w-[16rem]"
+            className="object-contain w-full min-w-[16rem] rounded-md"
           />
           <p className="text-center bg-stone-300 mt-3 text-xs py-1">
             Triomphe du martyr, Alger
@@ -43,7 +43,7 @@ function Home() {
           <img
             src="/images/nouakchott.png"
             alt="nouakchott ,mauritanie"
-            className=" object-contain  "
+            className=" object-contain rounded-md "
           />
           <p className="text-center bg-stone-300 mt-3 text-xs py-1">
             Nouakchott, Mauritanie
@@ -56,10 +56,10 @@ function Home() {
           </h2>
           <p>Nelson Mandela</p>
         </div>
-      </div>
+      </section>
 
       {/* bridge between algeria , mauritania and africa */}
-      <section className="lg:my-36 flex flex-col items-center lg:p-10 pattern ">
+      <section className="lg:my-36 flex flex-col items-center lg:p-10 pattern  ">
         <h2 className="lg:text-4xl">
           Bridging Opportunities: Your Trusted Partner for Sustainable Growth in
           African Markets
@@ -68,9 +68,9 @@ function Home() {
           <img
             src="/images/team.jpg"
             alt="people putting hands over other "
-            className="object-contain lg:w-[35%] "
+            className="object-contain lg:w-[35%] rounded-lg"
           />
-          <p className="lg:max-w-[58%] lg:text-xl pl-2 border-l-2 border-l-black ">
+          <p className="lg:max-w-[54%] lg:text-xl pl-2 border-l-2 border-l-black leading-[10rem] ">
             As a bridge between Algeria, Mauritania, and Africa, we are
             committed to promoting fair trade, sustainable development, and
             regional economic cooperation. Whether you are a company seeking to
