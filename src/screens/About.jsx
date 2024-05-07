@@ -56,12 +56,13 @@ function About() {
           Starts Here
         </h2>
         <p className="lg:mt-3 lg:max-w-[57%] lg:text-xl">
-          Whether you&apos;re looking to expand your presence, enter new markets, or
-          establish lasting partnerships, A&M is here to guide you every step of
-          the way. Contact us today to explore how we can assist you in
-          achieving your business objectives and driving success in the dynamic
-          landscape of African markets.
+          Whether you&apos;re looking to expand your presence, enter new
+          markets, or establish lasting partnerships, A&M is here to guide you
+          every step of the way. Contact us today to explore how we can assist
+          you in achieving your business objectives and driving success in the
+          dynamic landscape of African markets.
         </p>
+        <button className="bg-[#F4D298] px-3 py-1 mt-4 text-xl">Contact us now</button>
       </div>
     </div>
   )

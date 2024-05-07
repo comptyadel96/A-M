@@ -6,6 +6,7 @@ import ErrorPage from "./screens/ErrorPage"
 import Home from "./screens/Home"
 import Layout from "./screens/Layout"
 import About from "./screens/About"
+import Contact from "./screens/Contact"
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

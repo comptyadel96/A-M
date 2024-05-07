@@ -16,7 +16,7 @@ function Home() {
         </div>
 
         <div className="flex flex-col">
-          <h1 className="lg:text-4xl lg:max-w-[75%]">
+          <h1 className="lg:text-7xl lg:max-w-[75%]">
             Unlocking Opportunities: Your Gateway to Prosperity in Algeria,
             Mauritania, and Africa
           </h1>
@@ -50,7 +50,7 @@ function Home() {
           </p>
         </div>
 
-        <div className="absolute bottom-0 left-1/2 -translate-x-[50%] flex flex-col items-center">
+        <div className="absolute lg:-bottom-[5rem] left-1/2 -translate-x-[50%] flex flex-col items-center">
           <h2 className=" lg:text-2xl">
             &quot;It always seems impossible until it&apos;s done&quot;
           </h2>
@@ -85,8 +85,13 @@ function Home() {
         <p className="text-center self-end mt-1">Virginia Burden</p>
       </section>
 
+      <div className="relative skew-x-[40deg] bg-[#F2ECE2] ">
+        <h2 className="lg:text-6xl z-20 -skew-x-[40deg]">It sounds good ?</h2>
+        <div className=" bg-gray-300 -z-0 left-0 right-0 w-full " />
+      </div>
+
       {/* contact us */}
-      <section className="lg:my-36 flex flex-col items-center lg:p-10 bg-gray-100">
+      <section className="lg:my-20 flex flex-col items-center lg:p-10 bg-gray-100">
         <h3 className="lg:text-4xl">
           Empower Your Business Journey: Connect with Us for Success in Africa
         </h3>

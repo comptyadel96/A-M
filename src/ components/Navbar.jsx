@@ -8,7 +8,7 @@ function Navbar() {
       <nav className="flex items-center gap-8 mx-6">
         <Link>Home</Link>
         <Link to="about" >About us</Link>
-        <Link>Contact</Link>
+        <Link to="contact" >Contact</Link>
         <Link>FAQ</Link>
       </nav>
     </>
