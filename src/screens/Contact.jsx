@@ -2,11 +2,13 @@ import React from "react"
 import Lottie from "lottie-react"
 import ContactAnim from "../assets/animations/contact.json"
 import { FaMailBulk, FaPhone } from "react-icons/fa"
+
 function Contact() {
   return (
-    <div className="lg:pt-10 flex flex-col items-center">
+    <div className="lg:py-10 flex flex-col items-center">
       <h1 className="lg:text-9xl lg:mb-16">Contact us</h1>
-      <div className="flex w-full items-center">
+
+      <div className="flex w-full items-center justify-center">
         <div className="lg:w-[30rem] ">
           <Lottie loop autoPlay animationData={ContactAnim} />
         </div>

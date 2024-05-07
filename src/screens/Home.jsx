@@ -92,7 +92,7 @@ function Home() {
 
       {/* contact us */}
       <section className="lg:my-20 flex flex-col items-center lg:p-10 bg-gray-100">
-        <h3 className="lg:text-4xl">
+        <h3 className="lg:text-4xl ">
           Empower Your Business Journey: Connect with Us for Success in Africa
         </h3>
         <p className="mt-6 text-xl">
