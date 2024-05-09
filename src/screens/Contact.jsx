@@ -1,7 +1,7 @@
 import React from "react"
 import Lottie from "lottie-react"
 import ContactAnim from "../assets/animations/contact.json"
-import { FaMailBulk, FaPhone, FaWhatsapp } from "react-icons/fa"
+import { FaMailBulk, FaMap, FaPhone, FaWhatsapp } from "react-icons/fa"
 
 function Contact() {
   return (
@@ -23,6 +23,13 @@ function Contact() {
             <FaWhatsapp size={30} />
             <p className="lg:text-xl"> +222 22246969 </p>
           </div>
+
+          {/* adresse */}
+          <div className="flex items-center gap-2">
+            <FaMap size={30} />
+            <p className="lg:text-xl">Tevragh Zeina, Nouakchott, Mauritania </p>
+          </div>
+
           <div className="flex items-center gap-2">
             <FaMailBulk size={30} />
             <p className="lg:text-xl"> algeromauritanie@gmail.com</p>

@@ -16,8 +16,8 @@ function Home() {
         </div>
 
         <div className="flex flex-col">
-          <h1 className="lg:text-7xl lg:max-w-[75%]">
-            Unlocking Opportunities: Your Gateway to Prosperity in Algeria,
+          <h1 className="lg:text-7xl ">
+            Unlocking Opportunities : Your Gateway to Prosperity in Algeria,
             Mauritania, and Africa
           </h1>
           <p className="lg:mt-8 lg:text-xl">

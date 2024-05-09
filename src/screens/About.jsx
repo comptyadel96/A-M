@@ -4,11 +4,11 @@ function About() {
   return (
     <div className="lg:py-10 flex flex-col items-center">
       <h1 className="lg:text-7xl">About A&M: </h1>
-      <div className="flex  md:flex-row flex-col lg:gap-10 w-full lg:mt-10 bg-black lg:py-[9rem] lg:px-10">
+      <div className="flex  md:flex-row flex-col lg:gap-10 w-full lg:mt-10 bg-black lg:py-[7rem] lg:px-10">
         <img
           src="/images/office.jpg"
           alt=""
-          className="object-contain lg:w-[85%] rounded-md"
+          className="object-contain lg:h-[16rem] h-[10rem] rounded-md"
         />
         <div className="flex flex-col">
           <h2 className="text-[#F4D298] lg:text-4xl ">
@@ -16,13 +16,13 @@ function About() {
             Beyond
           </h2>
 
-          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl leading-loose   ">
+          <p className="text-white lg:max-w-[90%] lg:mt-4 lg:text-xl leading-loose   ">
             A&M, your trusted partner in facilitating trade and fostering
             business opportunities between Algeria, Mauritania, and beyond. At
             A&M, we are dedicated to driving economic growth and prosperity by
             connecting businesses and facilitating partnerships across borders.
           </p>
-          <p className="text-white lg:max-w-[70%] lg:mt-4 lg:text-xl leading-loose lg:self-center pl-3 border-l-2 border-l-yellow-300 ">
+          <p className="lg:max-w-[87%] bg-slate-900 mix-blend-lighten z-30 lg:mt-4 lg:text-xl leading-loose lg:self-center pl-3 border-l-2 border-l-yellow-300 ">
             Our team is committed to providing comprehensive services tailored
             to meet the unique needs of our clients. From strategic consulting
             to sourcing commercial partners and investors, we offer a range of
@@ -52,11 +52,11 @@ function About() {
           alt="Africa map"
           className="object-contain lg:max-w-[20%] "
         />
-        <h2 className="lg:text-4xl lg:mt-3">
+        <h2 className="lg:text-4xl lg:mt-3 text-center">
           Unlocking Opportunities: Your Path to Success in African Markets
           Starts Here
         </h2>
-        <p className="lg:mt-3 lg:max-w-[57%] lg:text-xl">
+        <p className="lg:mt-3 lg:max-w-[57%] lg:text-xl text-center">
           Whether you&apos;re looking to expand your presence, enter new
           markets, or establish lasting partnerships, A&M is here to guide you
           every step of the way. Contact us today to explore how we can assist
