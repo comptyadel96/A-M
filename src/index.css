@@ -25,7 +25,8 @@
 
 h1,
 h2,
-h3,button {
+h3,
+button {
   font-family: Aspekta-Bold;
 }
 
@@ -36,4 +37,20 @@ nav {
 .pattern {
   background-color: #f2ece2;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23000000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.white {
+  background-color: #fff;
+}
+.black {
+  background-color: #000;
+}
+
+.text-blend {
+  color: rgb(255, 255, 255);
+  mix-blend-mode: difference;
+  z-index: 10;
+}
+.leadingT{
+  line-height: 1.7 !important ;
 }

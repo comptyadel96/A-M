@@ -1,10 +1,24 @@
 import React from "react"
+import Factory from "/images/factory.png"
 
 function Home() {
   return (
-    <div className="flex flex-col items-center lg:pt-20">
-      <section className="flex w-full lg:px-6 gap-8 relative bg-gradient-to-br from-gray-300 lg:py-14 to-white">
-        <div className="self-start ">
+    <div className="flex flex-col h-full items-center ">
+      <section
+        style={{
+          backgroundImage: "url(" + Factory + ")",
+          minHeight: "78vh",
+
+          /* Create the parallax scrolling effect */
+          backgroundAttachment: "fixed",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+        }}
+        className="flex w-full lg:px-6 gap-8 relative lg:py-14"
+      >
+        <div className="absolute inset-0 bg-black/55 " />
+        {/* <div className="self-start ">
           <img
             src="images/monument1.jpg"
             alt="monument du martyr algérie"
@@ -13,14 +27,14 @@ function Home() {
           <p className="text-center bg-stone-300 mt-3 text-xs py-1">
             Triomphe du martyr, Alger
           </p>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col">
-          <h1 className="lg:text-7xl ">
+        <div className="flex flex-col text-center z-20  items-center">
+          <h1 className="lg:text-7xl   text-[#ffdc9f] ">
             Unlocking Opportunities : Your Gateway to Prosperity in Algeria,
             Mauritania, and Africa
           </h1>
-          <p className="lg:mt-8 lg:text-xl">
+          <p className="lg:mt-8 lg:text-2xl leadingT text-white lg:max-w-[65%] text ">
             Welcome to our business office specializing in commercial relations
             between Algeria and Mauritania, as well as in fostering business
             opportunities across Africa. We are a dedicated team committed to
@@ -28,7 +42,7 @@ function Home() {
             growth in the region.
           </p>
 
-          <p className="lg:mt-3 lg:text-xl">
+          <p className="lg:mt-3 lg:text-2xl leadingT  text-white lg:max-w-[65%]">
             Our services include strategic consulting for companies looking to
             enter the Algerian, Mauritanian, and African markets, sourcing
             commercial partners and investors, as well as assisting in building
@@ -39,7 +53,7 @@ function Home() {
           </p>
         </div>
         {/* nouakchott image */}
-        <div className="self-end lg:h-[16rem] lg:mt-[10rem]">
+        {/* <div className="self-end lg:h-[16rem] lg:mt-[10rem]">
           <img
             src="/images/nouakchott.png"
             alt="nouakchott ,mauritanie"
@@ -48,18 +62,17 @@ function Home() {
           <p className="text-center bg-stone-300 mt-3 text-xs py-1">
             Nouakchott, Mauritanie
           </p>
-        </div>
-
-        <div className="absolute lg:-bottom-[5rem] left-1/2 -translate-x-[50%] flex flex-col items-center">
-          <h2 className=" lg:text-2xl">
-            &quot;It always seems impossible until it&apos;s done&quot;
-          </h2>
-          <p>Nelson Mandela</p>
-        </div>
+        </div> */}
       </section>
 
+      <div className="flex flex-col items-center lg:my-10">
+        <h2 className=" lg:text-2xl">
+          &quot;It always seems impossible until it&apos;s done&quot;
+        </h2>
+        <p>Nelson Mandela</p>
+      </div>
       {/* bridge between algeria , mauritania and africa */}
-      <section className="lg:my-36 flex flex-col items-center lg:p-10 pattern  ">
+      <section className="lg:mb-36 lg:mt-20 flex flex-col items-center lg:p-10 pattern  ">
         <h2 className="lg:text-4xl">
           Bridging Opportunities: Your Trusted Partner for Sustainable Growth in
           African Markets
